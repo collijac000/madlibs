@@ -1,0 +1,73 @@
+h3{
+  text-align:center;
+}
+
+.words{
+  color:blue;
+}
+p{
+  text-align:center;
+  
+}
+body {
+  background-image: linear-gradient(to right,#ff8ba7  ,#ffc6c7  ,#c3f0ca);
+  font-family: 'Roboto Slab', serif;
+  border: 10px solid transparent;
+  padding: 15px;
+  border-image: url(border.png) 30% round;
+
+}
+input{
+  text-align:center;
+  background-color:#faeee7;
+  margin:6px;
+  font-family: 'Roboto Slab', serif;
+
+}
+form{
+  text-align:center;
+  font-family: 'Roboto Slab', serif;
+
+}
+.button{
+  font-family: 'Roboto Slab', serif;
+
+  display:inline-block;
+  border-radius:8px;
+  background-color:#7ADE95;
+  border: black,4px;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 14px;
+  padding: 24px;
+  width: 50%;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+div{
+  text-align:center;
+}
